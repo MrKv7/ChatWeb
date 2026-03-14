@@ -570,9 +570,10 @@
         </div>
     </div>
 
+    <script src="config.js"></script>
     <script>
-        const API_KEY = 'YOUR_GROQ_API_KEY_HERE';
-        const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
+        const API_KEY = window.ENV.GROQ_API_KEY;
+        const API_URL = window.API_ENDPOINTS.GROQ;
         
         let conversationHistory = [
             {
