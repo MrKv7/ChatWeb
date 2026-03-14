@@ -3,6 +3,9 @@
 .env.local
 .env.production
 
+# Config with real API keys (deploy locally to Firebase, never push to GitHub)
+config.js
+
 # Logs
 logs
 *.log
