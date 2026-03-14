@@ -6,8 +6,6 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**",
-      "indexx1.html",
-      "indexx2.html",
       "README.md",
       ".env",
       ".env.example"
